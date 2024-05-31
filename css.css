@@ -1,0 +1,160 @@
+body{background-color:#FFF5EE}
+header {
+   width: 100%;
+   box-shadow: 3px 3px 1px rgba(0, 0, 0, .05);
+   padding: 20px 0;
+   margin-bottom: 30px;
+   position: relative;
+   background-color:#AFEEEE;
+   height:0px
+}
+.name_header{
+}
+.name_header_box{
+	position: relative;
+	top:-40px;
+	text-align:left;
+	height:0px;
+}
+.ggg{
+	width:0px;
+	height:0px;
+	position: relative;
+	left:500px;
+	top:-50px;
+}
+
+.rrr{
+	width:0px;
+	height:0px;
+	position: relative;
+	left:700px;
+	top:-70px;
+}
+.ddd{
+	width:0px;
+	height:0px;
+	position: relative;
+	left:900px;
+	top:-85px;
+}
+.poisk{
+	width:32%;
+	height:40px;
+	position: relative;
+	left:1050px;
+	top:-122px;
+}
+input{
+	width:100%;
+	height:40px;
+	position: relative;
+	background-color:#E0FFFF;
+	border-color:#E0FFFF;
+}
+
+
+
+
+/*.container {
+	width: 700px;
+	height: auto;
+	margin: 80px auto;
+	position: relative;
+}
+.circle {
+	width: 600px;
+	height: 600px;
+	border: solid 50px #ffffff;
+	border-radius: 50%;
+	top: 70px;
+	position: absolute;
+	z-index: 10; 
+}
+.a-1 {
+	width: 100px;
+	height: 770px;
+	background: #ffffff;
+	transform: skewX(-25deg);
+	position: absolute;
+	left: 200px;
+	z-index: 20px;
+}
+.a-2 {
+	width: 100px;
+	height: 380px;
+	background: #ffffff;
+	position: absolute;
+	left: 400px;
+	z-index: 30;
+}
+.a-3 {
+	width: 190px;
+	height: 100px;
+	background: #ffffff;
+	position: absolute;
+	left: 210px;
+	top: 450px;
+	z-index: 40;
+}
+.arrow-right {
+	width: 0;
+	height: 0;
+	border-top: 90px solid transparent;
+	border-bottom: 90px solid transparent;
+	border-left: 120px solid #ffffff;
+	left: 400px;
+	top: 410px;
+	position: absolute;
+	z-index: 50px;
+}
+.arrow-down {
+	width: 0;
+	height: 0;
+	border-bottom: 80px solid transparent;
+	border-right: 100px solid #ffffff;
+	left: 400px;
+	top: 380px;
+	position: absolute;
+	z-index: 60;
+}
+.arrow-left {
+	width: 0;
+	height: 0;
+	border-top: 80px solid transparent;
+	border-right: 100px solid #ffffff;
+	left: 400px;
+	top: 540px;
+	position: absolute;
+	z-index: 70;
+}
+.black-bar-1, .black-bar-2 {
+	width: 25px;
+	height: 80px;
+	background: #000000;
+	transform: skewX(-25deg);
+	position: absolute;
+}
+.black-bar-1 {
+	left: 158px;
+	top: 650px;
+	z-index: 80;
+}
+.black-bar-2 {
+	left: 72px;
+	top: 565px;
+	z-index: 90;
+}
+*/
+
+
+.region-description {
+      text-align: justify;
+      margin: 0 auto;
+      max-width: 600px;
+      padding: 20px;
+      background-color: #f4f4f4;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }

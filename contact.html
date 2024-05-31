@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="shortcut icon" href="https://images.wallpaperscraft.ru/image/single/devushka_nozh_vzgliad_1145057_300x168.jpg" type="image/png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700,700italic|Playfair+Display:400,700&subset=latin,cyrillic">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+  <title>Abkhazia beauty</title>
+  <link rel="stylesheet" href="css.css">
+  <link rel="stylesheet" href="main.html">
+  <script language="JavaScript" type="text/JavaScript">
+function createSubjectArrays() {
+    var subjects = ["Математика", "Физика", "Химия", "Биология", "Алгебра", "Геометрия", "Литература", "История", "География", "Иностранный язык"];
+    var exactSciences = subjects.slice(0, 4);
+    var humanities = subjects.slice(4, 10);
+
+    document.write("<h1>Предметы точных наук:</h1>");
+    document.write("<ul>");
+    for (var i = 0; i < exactSciences.length; i++) {
+        document.write("<li>" + exactSciences[i] + "</li>");
+    }
+    document.write("</ul>");
+
+    document.write("<h1>Предметы гуманитарных наук:</h1>");
+    document.write("<ul>");
+    for (var i = 0; i < humanities.length; i++) {
+        document.write("<li>" + humanities[i] + "</li>");
+    }
+    document.write("</ul>");
+}
+</script>
+</head>
+<body>
+<header>
+<div class='name_header_box'><h1 class='name_header'>Abkhazia beauty</h1></div>
+<h2 class='ggg'>main</h2>
+<a href="about.html"><h2 class='rrr'>about</h2></a>
+<h2 class='ddd'>contact</h2>
+<div class='poisk'><form><input name="s" placeholder="Искать здесь..." type="search"></input></form></div>
+</header>
+
+<main>
+<script language="JavaScript" type="text/JavaScript">
+function drawLine(length) {
+    document.writeln("<hr align='center' width='" + length + "'>");
+}
+
+var initialLength = 10; // длина первой линии
+for (var i = 0; i < 10; i++) {
+    drawLine(initialLength + i*10); // увеличиваем длину каждой последующей линии на 10 пикселей
+}
+</script>
+
+<script language="JavaScript" type="text/JavaScript">
+document.write("<table border='1'>");
+document.write("<tr><th>Степень</th><th>Результат</th></tr>");
+
+for (var i = 0; i <= 5; i++) {
+    var power = Math.pow(2, i);
+    document.write("<tr><td>" + i + "</td><td>" + power + "</td></tr>");
+}
+
+document.write("</table>");
+</script>
+
+<script language="JavaScript" type="text/JavaScript">
+createSubjectArrays();
+</script>
+
+<script language="JavaScript" type="text/JavaScript">
+window.onload = function() {
+    var browserName = navigator.appName;
+    
+    if (browserName === "Opera Software") {
+        window.location.href = 'index.html';
+    } else {
+        window.location.replace.href = "about.html";
+    }
+}
+</script>
+</main>
+  
+</body>
+</html>
