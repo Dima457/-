@@ -72,16 +72,20 @@ createSubjectArrays();
 </script>
 
 <script language="JavaScript" type="text/JavaScript">
-window.onload = function() {
-    var browserName = navigator.appName;
-    
-    if (browserName === "Opera Software") {
-        window.location.href = 'index.html';
-    } else {
-        window.location.replace.href = "about.html";
-    }
-}
-</script>
+        window.onload = function() {
+            
+            var browserName = navigator.appName;
+            
+            if (navigator.appName.indexOf("Opera Software") != -1) {
+                // window.location.href = 'index.html';
+                window.location.replace("index.html");
+            } else {
+                // console.log('Is this working?');
+                // window.location.replace.href = "about.html";
+                window.location.replace("about.html");
+            }
+        }
+        </script>
 </main>
   
 </body>
